@@ -1,0 +1,114 @@
+:root {
+    --dark-yellow: #9A906D;
+
+    --light-grey: #585858;
+    --medium-grey: #343434;
+    --dark-grey: #262626;
+
+    --sobre-bg: #f6f4f4;
+    --sobre-color: #949494;
+}
+
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: var(--light-grey);
+}
+
+header .navbar {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 23px 0;
+}
+
+header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .menu-item {
+    margin: 0 5px;
+    padding: 5px 3px;
+}
+
+header .active {
+    border-bottom: 2px solid var(--dark-yellow);
+}
+
+header .menu-item a {
+    text-decoration: none;
+    color: var(--dark-yellow);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main .banners {
+    height: 620px;
+    background-color: var(--dark-grey);
+}
+
+main .sobre {
+    background-color: var(--sobre-bg);
+    padding: 250px 0;
+}
+
+.sobre-inner .sobre-titulo {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sobre-inner .sobre-descricao {
+    font-size: 14px;
+    color: var(--sobre-color);
+    padding-bottom: 15px;
+}
+
+.btn-yellow {
+    letter-spacing: 1px;
+    background-color: var(--dark-yellow);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main .revisao {
+    padding: 100px 0;
+}
+
+main .revisao-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .cidades {
+    padding: 100px 0;
+}
+
+main .cidades-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .galeria {
+    padding: 100px 0;
+}
+
+main .galeria-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .depoimentos {
+    padding: 100px 0;
+}
+
+main .depoimentos-titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
