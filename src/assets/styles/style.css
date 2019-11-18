@@ -45,6 +45,7 @@ header .menu-item a {
     color: var(--dark-yellow);
     font-size: 12px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 main .banners {
@@ -99,6 +100,10 @@ main .galeria {
     padding: 100px 0;
 }
 
+main .galeria-item {
+    margin-bottom: 15px;
+}
+
 main .galeria-titulo {
     font-size: 30px;
     font-weight: bold;
@@ -106,6 +111,11 @@ main .galeria-titulo {
 
 main .depoimentos {
     padding: 100px 0;
+}
+
+main .depoimento-item {
+    font-size: 18px;
+    color: #BCBCBC;
 }
 
 main .depoimentos-titulo {
