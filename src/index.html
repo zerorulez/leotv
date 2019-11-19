@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Titulo</title>
+    <title>Memórias de Coretos</title>
 
     <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/lightbox.min.css">
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
@@ -18,19 +19,16 @@
                     <nav class="navbar">
                         <ul class="menu">
                             <li class="menu-item">
-                                <a href="#">SOBRE</a>
-                            </li>
-                            <li class="menu-item active">
-                                <a href="#">REVISÃO</a>
+                                <a href="#sobre">SOBRE</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">CIDADES</a>
+                                <a href="#cidades">CIDADES</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">GALERIA</a>
+                                <a href="#galeria">GALERIA</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">DEPOIMENTOS</a>
+                                <a href="#depoimentos">DEPOIMENTOS</a>
                             </li>
                         </ul>
                     </nav>
@@ -44,23 +42,26 @@
 
         </section>
 
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="sobre-inner">
+                    <div class="col-12 col-lg-6">
+                        <div class="sobre-inner p-5">
                             <h2 class="sobre-titulo">SOBRE O PROJETO</h2>
                             <p class="sobre-descricao">
-                                Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.
+                                O projeto "Memórias de Coretos - Histórias que devem ser lembradas" aborda relatos memoráveis de habitantes de quatro municípios do interior do estado de São Paulo, que presenciaram os tão comuns passeios ao redor dos coretos das praças de suas cidades durante a juventude. Mostra como esse mesmo espaço é usado, hoje em dia, para eventos atuais; como é importante o resgate dessa tradição, trazendo conhecimento para quem não vivenciou a época e incitando boas memórias a quem viveu.
                             </p>
-                            <button class="btn btn-yellow">READ MORE</button>
+                            <button class="btn btn-yellow">Leia Mais</button>
                         </div>
+                    </div>
+                    <div class="col-12 col-lg-6 side-color">
+
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="revisao">
+        <!-- <section class="revisao">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 pb-4">
@@ -77,9 +78,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="cidades">
+        <section id="cidades" class="cidades py-5">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 pb-4">
@@ -94,11 +95,41 @@
                             <h2 class="cidades-titulo pb-4">AS CIDADES</h2>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-3">
+                                    <p class="titulo">
+                                        Ibitinga
+                                    </p>
+                                    <p class="cidades-sobre">A cidade de Ibitinga comemorou os 100 anos do coreto da Praça Rui Barbosa no dia 24 de maio de 2019. Nós estávamos lá para registrar a celebração e conhecemos histórias de pessoas que têm uma forte ligação com essa estrutura localizada na praça. Venha conferir!</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <p class="titulo">
+                                        Itu
+                                    </p>
+                                    <p class="cidades-sobre">A Banda do Carmo foi uma das primeiras bandas da cidade de Itu, e é atuante até os dias de hoje. Para uma das comemorações da reinauguração da Praça Padre Miguel, a Banda do Carmo fez uma linda apresentação, a qual fomos conferir. Conversamos com alguns integrantes e moradores que relembraram boas histórias. Confira!</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <p class="titulo">
+                                        Cosmópolis
+                                    </p>
+                                    <p class="cidades-sobre">Assim como o próprio nome já diz, pela tradução grega, Cosmópolis, a "Cidade Universo", foi povoada por diversos povos de diferentes cultura. E em homenagem à eles a cidade promove a Festa do Imigrante, que já está na sua 14ª edição e contou com muita música e barracas de comidas típicas na Praça Major Artur Nogueira, conhecida como a praça do coreto. Os moradores falaram sobre sua relação com o coreto, da linha férrea e a importância da festa nos dias de hoje para a cidade.</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <p class="titulo">
+                                        Pirassununga
+                                    </p>
+                                    <p class="cidades-sobre">O "Dançando na Praça" é um projeto da Secretaria de Cultura da cidade de Pirassununga que incentiva a população a frequentar a Praça Conselheiro Antonio Prado, onde está localizado o coreto.  O evento ocorre no primeiro domingo de cada mês, com a presença da corporação musical pirassununguense, que convida todos a dançar. Estivemos lá para prestigiar o evento e captamos relatos de quem participou da festa e de moradores que vivenciaram anos de ouro da praça e do coreto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="galeria">
+        <section id="galeria" class="galeria py-5">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 pb-4">
@@ -110,26 +141,26 @@
                     </div>
                     <div class="col-12">
                         <div class="d-flex justify-content-center">
-                            <h2 class="galeria-titulo pb-4">GALERIA DE FOTOS</h2>
+                            <h2 class="galeria-titulo pb-4 text-center">GALERIA DE FOTOS</h2>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="container">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="assets/images/BANCO-COSMOPOLIS.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/BANDA-DO-CARMO.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/CORETO-DE-COSMÓPOLIS.png" class="img-fluid galeria-item" alt="" srcset="">
+                                <div class="col-12 col-lg-4">
+                                    <a href="assets/images/BANCO-COSMOPOLIS.png" data-lightbox="galeria"><img src="assets/images/BANCO-COSMOPOLIS.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/BANDA-DO-CARMO.png" data-lightbox="galeria"><img src="assets/images/BANDA-DO-CARMO.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORPORAÇÃO-MUSICAL-PIRRASUNUNGUENSE.png" data-lightbox="galeria"><img src="assets/images/CORPORAÇÃO-MUSICAL-PIRRASUNUNGUENSE.png" class="img-fluid galeria-item" alt="" srcset=""></a>
                                 </div>
-                                <div class="col-4">
-                                    <img src="assets/images/CORETO-DE-IBITINGA.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/CORETO-DE-ITU.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/CORETO-DE-PIRASSUNUNGA.png" class="img-fluid galeria-item" alt="" srcset="">
+                                <div class="col-12 col-lg-4">
+                                    <a href="assets/images/CORETO-DE-IBITINGA.png" data-lightbox="galeria"><img src="assets/images/CORETO-DE-IBITINGA.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORETO-DE-ITU.png" data-lightbox="galeria"><img src="assets/images/CORETO-DE-ITU.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORETO-DE-PIRASSUNUNGA.png" data-lightbox="galeria"><img src="assets/images/CORETO-DE-PIRASSUNUNGA.png" class="img-fluid galeria-item" alt="" srcset=""></a>
                                 </div>
-                                <div class="col-4">
-                                    <img src="assets/images/CORNETAS-CORETO-IBITINGA.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/CORPORAÇÃO-MUSICAL-PIRRASUNUNGUENSE.png" class="img-fluid galeria-item" alt="" srcset="">
-                                    <img src="assets/images/MONUMENTO-MAESTRO-ISIAIAS.png" class="img-fluid galeria-item" alt="" srcset="">
+                                <div class="col-12 col-lg-4">
+                                        <a href="assets/images/CORNETAS-CORETO-IBITINGA.png" data-lightbox="galeria"><img src="assets/images/CORNETAS-CORETO-IBITINGA.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                        <a href="assets/images/CORETO-DE-COSMÓPOLIS.png" data-lightbox="galeria"><img src="assets/images/CORETO-DE-COSMÓPOLIS.png" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                        <a href="assets/images/MONUMENTO-MAESTRO-ISIAIAS.png" data-lightbox="galeria"><img src="assets/images/MONUMENTO-MAESTRO-ISIAIAS.png" class="img-fluid galeria-item" alt="" srcset=""></a>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +169,7 @@
             </div>
         </section>
 
-        <section class="depoimentos">
+        <section id="depoimentos" class="depoimentos py-5">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 pb-4">
@@ -156,12 +187,12 @@
                     <div class="col-12">
                         <div class="container">
                             <div class="row">
-                                <div class="col-6 ">
+                                <div class="col-12 col-lg-6">
                                     <p class="depoimento-item">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     </p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <p class="depoimento-item">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     </p>
@@ -175,9 +206,18 @@
     </main>
 
     <footer>
+        <section class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 ">
 
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 
+    <script src="assets/scripts/lightbox-plus-jquery.min.js"></script>
     <script src="assets/scripts/script.js"></script>
 </body>
 </html>

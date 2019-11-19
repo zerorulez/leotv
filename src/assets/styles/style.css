@@ -33,7 +33,6 @@ header .menu {
 
 header .menu-item {
     margin: 0 5px;
-    padding: 5px 3px;
 }
 
 header .active {
@@ -48,14 +47,21 @@ header .menu-item a {
     letter-spacing: 1px;
 }
 
+header .menu-item a:hover {
+    color: white;
+}
+
 main .banners {
-    height: 620px;
+    height: 500px;
     background-color: var(--dark-grey);
 }
 
 main .sobre {
     background-color: var(--sobre-bg);
-    padding: 250px 0;
+}
+
+.side-color {
+    background-color: var(--medium-grey);
 }
 
 .sobre-inner .sobre-titulo {
@@ -78,17 +84,21 @@ main .sobre {
     font-weight: bold;
 }
 
-main .revisao {
-    padding: 100px 0;
-}
-
 main .revisao-titulo {
     font-size: 30px;
     font-weight: bold;
 }
 
-main .cidades {
-    padding: 100px 0;
+main .titulo {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .cidades-sobre {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 15px;
 }
 
 main .cidades-titulo {
@@ -96,21 +106,14 @@ main .cidades-titulo {
     font-weight: bold;
 }
 
-main .galeria {
-    padding: 100px 0;
-}
-
 main .galeria-item {
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 main .galeria-titulo {
     font-size: 30px;
     font-weight: bold;
-}
-
-main .depoimentos {
-    padding: 100px 0;
 }
 
 main .depoimento-item {
@@ -121,4 +124,9 @@ main .depoimento-item {
 main .depoimentos-titulo {
     font-size: 30px;
     font-weight: bold;
+}
+
+footer {
+    height: 50px;
+    background-color: var(--dark-grey);
 }
