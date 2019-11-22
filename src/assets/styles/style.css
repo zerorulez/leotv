@@ -51,9 +51,10 @@ header .menu-item a:hover {
     color: white;
 }
 
-main .banners {
-    height: 500px;
-    background-color: var(--dark-grey);
+.coreto {
+    max-width: 70px;
+    position: absolute;
+    right: 0;
 }
 
 main .sobre {
@@ -90,9 +91,11 @@ main .revisao-titulo {
 }
 
 main .titulo {
-    font-size: 16px;
+    font-family: 'remanregular';
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    padding: 10px 0;
 }
 
 main .cidades-sobre {
@@ -124,6 +127,11 @@ main .depoimento-item {
 main .depoimentos-titulo {
     font-size: 30px;
     font-weight: bold;
+}
+
+.up img {
+    max-width: 100px;
+    cursor: pointer;
 }
 
 footer {
