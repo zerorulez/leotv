@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153499823-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-153499823-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memórias de Coretos</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content='O Webdocumentário "Memórias de Coretos - Histórias que devem ser lembradas" aborda relatos memoráveis de habitantes de quatro municípios do interior do estado de São Paulo que vivenciaram os tão comuns passeios ao redor dos coretos das praças de suas cidades; mostra como esse mesmo espaço é usado para eventos atuais e como é importante o resgate dessa tradição, trazendo conhecimento para quem não vivenciou a época e incitando boas memórias a quem viveu.'>
+    <meta name="keywords" content="Coretos, Memórias de Coretos, Ibitinga, Itu, Cosmópolis, Pirassununga">
+    
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/lightbox.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#sobre">SOBRE</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#cidades">CIDADES</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#galeria">GALERIA</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#sobrenos">SOBRE NÓS</a>
+                            </li>
+                        </ul>
+                        <img src="assets/images/logo-horizontal.png" alt="Logotipo coreto" class="img-fluid coreto d-none d-md-block ml-3">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="banners" onmouseover="play();" onmouseout="noplay();">
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body mb-0 p-0">
+                            <span class="fones">Para uma melhor experiência, utilize fones de ouvido.</span>
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                <iframe id="video1" src="https://drive.google.com/file/d/102LQksz1CvFF8GboJ90APBtYR6JvoNmz/preview" width="640" height="480"></iframe>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body mb-0 p-0">
+                            <span class="fones">Para uma melhor experiência, utilize fones de ouvido.</span>
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                <iframe id="video2" src="https://drive.google.com/file/d/102LQksz1CvFF8GboJ90APBtYR6JvoNmz/preview" width="640" height="480"></iframe>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a data-toggle="modal" data-target="#modal1">
+                <video id="video1" width="100%" autoplay loop muted playsinline class="d-none d-md-block">
+                    <source src="assets/videos/intro_ultrawide.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </a>
+            
+            <a data-toggle="modal" data-target="#modal2">
+                <video id="video2" width="100%" autoplay loop muted playsinline class="d-block d-md-none">
+                    <source src="assets/videos/intro_mobile.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </a>
+
+            <img src="assets/images/play.png" alt="Play icon" id="play" class="play-icon" style="display: block;">
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sobre-inner p-5">
+                            <h2 class="sobre-titulo">SOBRE O PROJETO</h2>
+                            <p class="sobre-descricao">
+                                O Webdocumentário "Memórias de Coretos - Histórias que devem ser lembradas" aborda relatos memoráveis de habitantes de quatro municípios do interior do estado de São Paulo que vivenciaram os tão comuns passeios ao redor dos coretos das praças de suas cidades; mostra como esse mesmo espaço é usado para eventos atuais e como é importante o resgate dessa tradição, trazendo conhecimento para quem não vivenciou a época e incitando boas memórias a quem viveu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cidades" class="cidades py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <div class="d-flex justify-content-center">
+                            <svg width="81" height="8" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M70.5406 7.18387L65.5339 2.02229L60.5272 7.18387L55.5203 2.02229L50.5135 7.18387L45.5068 2.02229L40.4999 7.18387L35.4931 2.02229L30.4865 7.18387L25.4797 2.02229L20.4728 7.18387L15.466 2.02229L10.4592 7.18387L5.4525 2.02229L0.891404 6.72438L6.69956e-05 5.8054L5.4525 0.18404L10.4592 5.34619L15.466 0.18404L20.4728 5.34619L25.4797 0.18404L30.4865 5.34619L35.4931 0.18404L40.4999 5.34619L45.5068 0.18404L50.5135 5.34619L55.5203 0.18404L60.5272 5.34619L65.5339 0.18404L70.5406 5.34619L75.5474 0.18404L80.9999 5.8054L80.1083 6.72438L75.5474 2.02229L70.5406 7.18387Z" fill="#191919"/>
+                            </svg>
+                        </div>                                
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="cidades-titulo pb-4">AS CIDADES</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-3">
+                                    <div class="mb-2">
+                                        <!-- Ibitinga -->
+                                        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body mb-0 p-0">
+                                            
+                                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                            <iframe id="video3" src="https://drive.google.com/file/d/1-hhAUzcX5HwNra_LpZ5XwLwH76055STn/preview" width="640" height="480"></iframe>
+                                                        </div>
+                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href data-toggle="modal" data-target="#modal3" onmouseover="play1();" onmouseout="noplay1();" class="modal-play">
+                                            <img src="assets/images/Thumb_Ibitinga.jpg" alt="Thumb video ibitinga" class="img-fluid">
+                                            <img src="assets/images/play.png" alt="Play icon" id="play1" class="mini-play-icon" style="display: block;">
+                                        </a>
+                                    </div>
+                                    <p class="titulo mb-1">
+                                        <!-- Ibitinga -->
+                                    </p>
+                                    <p class="cidades-sobre">A cidade de Ibitinga comemorou os 100 anos do coreto da Praça Rui Barbosa no dia 24 de maio de 2019. Nós estávamos lá para registrar a celebração e conhecemos histórias de pessoas que têm uma forte ligação com essa estrutura localizada na praça. Venha conferir!</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="mb-2">
+                                        <!-- Itu -->
+                                        <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body mb-0 p-0">
+                                            
+                                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                            <iframe id="video4" src="https://drive.google.com/file/d/1-n8Ulh0KYb0f1HLgVoG5r1muc_uRh41k/preview" width="640" height="480"></iframe>
+                                                        </div>
+                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href data-toggle="modal" data-target="#modal4" onmouseover="play2();" onmouseout="noplay2();" class="modal-play">
+                                            <img src="assets/images/Thumb_Itu.jpg" alt="Thumb video Itu" class="img-fluid">
+                                            <img src="assets/images/play.png" alt="Play icon" id="play2" class="mini-play-icon" style="display: block;">
+                                        </a>
+                                    </div>
+                                    <p class="titulo mb-1">
+                                        <!-- Itu -->
+                                    </p>
+                                    <p class="cidades-sobre">A Banda do Carmo foi uma das primeiras bandas da cidade de Itu, e é atuante até os dias de hoje. Para uma das comemorações da reinauguração da Praça Padre Miguel, a Banda do Carmo fez uma linda apresentação, a qual fomos conferir. Conversamos com alguns integrantes e moradores que relembraram boas histórias. Confira!</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="mb-2">
+                                        <!-- Cosmópolis -->
+                                        <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body mb-0 p-0">
+                                            
+                                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                            <iframe id="video5" src="https://drive.google.com/file/d/1-olx1yXDjh9OfPqOD8Ml0X7__oqcRMYT/preview" width="640" height="480"></iframe>
+                                                        </div>
+                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href data-toggle="modal" data-target="#modal5" onmouseover="play3();" onmouseout="noplay3();" class="modal-play">
+                                            <img src="assets/images/Thumb_Cosmópolis.jpg" alt="Thumb video Cosmópolis" class="img-fluid">
+                                            <img src="assets/images/play.png" alt="Play icon" id="play3" class="mini-play-icon" style="display: block;">
+                                        </a>
+                                    </div>
+                                    <p class="titulo mb-1">
+                                        <!-- Cosmópolis -->
+                                    </p>
+                                    <p class="cidades-sobre">Em homenagem aos países imigrantes que povoaram a cidade, Cosmópolis promove a Festa do Imigrante, que já está na sua 14ª edição e contou com muita música e barracas de comidas típicas na Praça Major Artur Nogueira, conhecida como a praça do coreto. Os moradores falaram sobre sua relação com o coreto e a importância da festa, nos dias de hoje, para a cidade.</p>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="mb-2">
+                                        <!-- Pirassununga -->
+                                        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body mb-0 p-0">
+                                            
+                                                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                            <iframe id="video6" src="https://drive.google.com/file/d/1-xwhHaClCSej06pn_xVbQs1Gtrm7yBWN/preview?enablejsapi=1" width="640" height="480"></iframe>
+                                                        </div>
+                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href data-toggle="modal" data-target="#modal6" onmouseover="play4();" onmouseout="noplay4();" class="modal-play">
+                                            <img src="assets/images/Thumb_Pirassununga.jpg" alt="Thumb video Pirassununga" class="img-fluid">
+                                            <img src="assets/images/play.png" alt="Play icon" id="play4" class="mini-play-icon" style="display: block;">
+                                        </a>
+                                    </div>
+                                    <p class="titulo mb-1">
+                                        <!-- Pirassununga -->
+                                    </p>
+                                    <p class="cidades-sobre">O "Dançando na Praça" é um projeto que incentiva a população a frequentar a Praça Conselheiro Antonio Prado, onde está localizado o coreto. O evento conta com a presença da Corporação Musical Pirassununguense, que convida todos a dançar. Estivemos lá e captamos relatos de quem participou da festa e de moradores que vivenciaram anos de ouro da praça e do coreto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="galeria py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <div class="d-flex justify-content-center">
+                            <svg width="81" height="8" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M70.5406 7.18387L65.5339 2.02229L60.5272 7.18387L55.5203 2.02229L50.5135 7.18387L45.5068 2.02229L40.4999 7.18387L35.4931 2.02229L30.4865 7.18387L25.4797 2.02229L20.4728 7.18387L15.466 2.02229L10.4592 7.18387L5.4525 2.02229L0.891404 6.72438L6.69956e-05 5.8054L5.4525 0.18404L10.4592 5.34619L15.466 0.18404L20.4728 5.34619L25.4797 0.18404L30.4865 5.34619L35.4931 0.18404L40.4999 5.34619L45.5068 0.18404L50.5135 5.34619L55.5203 0.18404L60.5272 5.34619L65.5339 0.18404L70.5406 5.34619L75.5474 0.18404L80.9999 5.8054L80.1083 6.72438L75.5474 2.02229L70.5406 7.18387Z" fill="#191919"/>
+                            </svg>
+                        </div>                                
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="galeria-titulo pb-4 text-center">GALERIA DE FOTOS</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-4">
+                                    <a href="assets/images/CORETO-DE-IBITINGA.png" data-lightbox="galeria"><img onmouseover="hover1(this);" onmouseout="unhover1(this);" src="assets/images/IBITINGA_CORETO-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/BANDA-DO-CARMO_full.png" data-lightbox="galeria"><img onmouseover="hover2(this);" onmouseout="unhover2(this);" src="assets/images/BANDA-DO-CARMO-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORPORAÇÃO-MUSICAL-PIRRASUNUNGUENSE.png" data-lightbox="galeria"><img onmouseover="hover3(this);" onmouseout="unhover3(this);" src="assets/images/BANDA-DE-PIRASSUNUNGA-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <a href="assets/images/BANCO-COSMOPOLIS_full.png" data-lightbox="galeria"><img onmouseover="hover4(this);" onmouseout="unhover4(this);" src="assets/images/BANCO-COSMOPOLIS-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORETO-DE-ITU.png" data-lightbox="galeria"><img onmouseover="hover5(this);" onmouseout="unhover5(this);" src="assets/images/CORETO_ITU-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORETO-DE-PIRASSUNUNGA.png" data-lightbox="galeria"><img onmouseover="hover6(this);" onmouseout="unhover6(this);" src="assets/images/PIRASSUNUNGA-CORETO-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <a href="assets/images/CORNETAS-CORETO-IBITINGA.png" data-lightbox="galeria"><img onmouseover="hover7(this);" onmouseout="unhover7(this);" src="assets/images/CORNETAS-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/CORETO-DE-COSMÓPOLIS.png" data-lightbox="galeria"><img onmouseover="hover8(this);" onmouseout="unhover8(this);" src="assets/images/CORETO_COSMOPOLIS-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                    <a href="assets/images/MONUMENTO-MAESTRO-ISIAIAS.png" data-lightbox="galeria"><img onmouseover="hover9(this);" onmouseout="unhover9(this);" src="assets/images/MAESTRO-ISAIAS-ITU-SELECAO.jpg" class="img-fluid galeria-item" alt="" srcset=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobrenos" class="depoimentos py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 pb-4">
+                        <div class="d-flex justify-content-center">
+                            <svg width="81" height="8" viewBox="0 0 81 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M70.5406 7.18387L65.5339 2.02229L60.5272 7.18387L55.5203 2.02229L50.5135 7.18387L45.5068 2.02229L40.4999 7.18387L35.4931 2.02229L30.4865 7.18387L25.4797 2.02229L20.4728 7.18387L15.466 2.02229L10.4592 7.18387L5.4525 2.02229L0.891404 6.72438L6.69956e-05 5.8054L5.4525 0.18404L10.4592 5.34619L15.466 0.18404L20.4728 5.34619L25.4797 0.18404L30.4865 5.34619L35.4931 0.18404L40.4999 5.34619L45.5068 0.18404L50.5135 5.34619L55.5203 0.18404L60.5272 5.34619L65.5339 0.18404L70.5406 5.34619L75.5474 0.18404L80.9999 5.8054L80.1083 6.72438L75.5474 2.02229L70.5406 7.18387Z" fill="#191919"/>
+                            </svg>
+                        </div>                                
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="depoimentos-titulo pb-4">SOBRE NÓS</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-md-3 p-4">
+                                    <img src="assets/images/foto2.jpg" alt="Foto Sobre Nós 1" class="sobre-foto img-fluid">
+                                </div>
+                                <div class="col-6 col-md-3 p-4">
+                                    <img src="assets/images/foto1.jpg" alt="Foto Sobre Nós 2" class="sobre-foto img-fluid">
+                                </div>
+                                <div class="col-6 col-md-3 p-4">
+                                    <img src="assets/images/foto3.jpg" alt="Foto Sobre Nós 3" class="sobre-foto img-fluid">
+                                </div>
+                                <div class="col-6 col-md-3 p-4">
+                                    <img src="assets/images/foto4.jpg" alt="Foto Sobre Nós 4" class="sobre-foto img-fluid">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 depo">
+                                    <p class="depoimento-item pt-4">
+                                        Kayan, Leonardo, Marco e Patrícia são formandos do curso de comunicação social - Rádio e TV nas Faculdades Integradas Rio Branco, localizada em São Paulo, a qual recebe nota máxima do Mec. O grupo, apaixonado por produção de conteúdo, desenvolveu ao longo do curso uma variedade de peças audiovisuais bem avaliadas e como técnica de conclusão de curso decidiram unir a paixão pela produção com a curiosidade em abordar memórias e sentimentos trazidos por coretos com o Webdocumentário “Memórias de Coretos: Histórias que devem ser lembradas”.
+                                    </p>
+                                    <img src="assets/images/faculdade-riobranco.png" alt="Logo da Faculdade Rio Branco" class="img-fluid d-block mx-auto mb-3 logo-riobranco">
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="depoimento-item pt-4">
+                                        Você se identificou com alguma das histórias e quer nos contar a sua e da sua cidade? Envie para o e-mail <a href="mailto:memoriasdecoretos@gmail.com">memoriasdecoretos@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="up text-center text-md-right">
+                                <a href="#header"><img src="assets/images/scroll-up.png" alt="Scroll Up" class="img-fluid scroll-up"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <small class="py-3 d-block text-light">Todos os direitos reservados.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="assets/scripts/lightbox-plus-jquery.min.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
